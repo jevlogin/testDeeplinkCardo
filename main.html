@@ -25,22 +25,26 @@
         color: #fff;
         font-size: 18px;
         text-decoration: none;
+        text-align: center;
         border-radius: 8px;
+        white-space: nowrap; /* Добавлено, чтобы кнопки не переносились на новую строку */
+        overflow: hidden; /* Добавлено, чтобы обрезать текст, если он не помещается */
+        text-overflow: ellipsis; /* Добавлено, чтобы отображать многоточие, если текст обрезается */
       }
 
       .button-bmw {
         background-color: #007bff;
-        width: 100%;
+        width: max-content; /* Добавлено, чтобы кнопка имела максимальную ширину на основе содержимого */
       }
 
       .button-mercedes {
         background-color: #333;
-        width: 100%;
+        width: max-content;
       }
 
       .button-gt1 {
         background-color: #ff6600;
-        width: 100%;
+        width: max-content;
       }
     </style>
   </head>
