@@ -14,21 +14,41 @@
         padding: 0;
       }
 
+      .button-container {
+        width: 70%;
+      }
+
       .button {
         display: inline-block;
         margin-bottom: 8px;
         padding: 16px 24px;
-        background-color: #007bff;
         color: #fff;
         font-size: 18px;
         text-decoration: none;
         border-radius: 8px;
       }
+
+      .button-bmw {
+        background-color: #007bff;
+        width: 100%;
+      }
+
+      .button-mercedes {
+        background-color: #333;
+        width: 100%;
+      }
+
+      .button-gt1 {
+        background-color: #ff6600;
+        width: 100%;
+      }
     </style>
   </head>
   <body>
-    <a href="instashop://shop.instashop.io/?type=app_demo&siteId=411021" class="button">Открыть BMW</a>
-    <a href="instashop://shop.instashop.io/?type=app_demo&siteId=411042" class="button">Открыть MERCEDES</a>
-    <a href="instashop://shop.instashop.io/?type=app_demo&siteId=383080" class="button">Открыть GT1</a>
+    <div class="button-container">
+      <a href="instashop://shop.instashop.io/?type=app_demo&siteId=411021" class="button button-bmw">Открыть BMW</a>
+      <a href="instashop://shop.instashop.io/?type=app_demo&siteId=411042" class="button button-mercedes">Открыть MERCEDES</a>
+      <a href="instashop://shop.instashop.io/?type=app_demo&siteId=383080" class="button button-gt1">Открыть GT1</a>
+    </div>
   </body>
 </html>
